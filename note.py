@@ -78,7 +78,7 @@ def save_as():
 
 file.add_command(label='Save As', compound=tk.LEFT, command =save_as )
 
-text_changed = False
+text_changed = True
 
 def changed():
     global text_changed
